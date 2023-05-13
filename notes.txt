@@ -1,0 +1,6 @@
+git add means staging before committing files will turn A, or it will be U
+If you committed and edit, it would change to M (meaning modified).
+send local copy to remote copy at GitHub by using the command git push origin main -using
+git status - tells you which files are committed and which files are not
+git commit - snapshot of your current code
+git commit -am "message" - do the committing and staging in one command
