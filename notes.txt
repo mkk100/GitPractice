@@ -4,3 +4,5 @@ send local copy to remote copy at GitHub by using the command git push origin ma
 git status - tells you which files are committed and which files are not
 git commit - snapshot of your current code
 git commit -am "message" - do the committing and staging in one command
+Remote repo and Local Repo are two different things
+
