@@ -20,4 +20,14 @@ git checkout -b awesome - create new branch and switch to the branch
 git checkout - = will take you to prev branch
 git merge --abort = abort the merging process
 forking copies the repo to your own repo, you can also fetch updates that way, when you do github opensource you can do pull request and the author will see whether to merge or not.
-git reset - removes files in staging area
+git reset - removes files in staging area (git tab in VS)
+git reset commit-id - it will reset the commit of that id, it will run mix mode, it will move us back to prev commit but won't dilute the files that we are currently working on.
+- Don't reset code on Github that has alrdy been pushed bc other devleoprs might be working on it. Only use git revert but if only you work, then no prob.
+But you can git revert commit-id , that's safer and this command won't entirely delete the commit, it will still be in git log.
+git --amend -m "new message" - changes last commit's message
+git stash - save your work without commiting.
+git stash save post1 - create post1 
+git stash list - list out all the saved items
+git stash apply 1 - you will get post1's saved codes.
+git rebase - instead of merge bc sometimes it can get real messy, rebase basically rewrite history, kinda destructive action. If you have two different branch and you git rebase main, your branch was put at the top of main branch
+squashing - squash every commit into one commits
