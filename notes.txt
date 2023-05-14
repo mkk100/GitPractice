@@ -7,3 +7,10 @@ git commit -am "message" - do the committing and staging in one command
 Remote repo and Local Repo are two different things
 git fetch - fetches the remote repo locally that's one commit ahead, but don't merge
 git merge origin/master or whatever branch you fetched - we merge it with our local code.
+git pull - fetch + merge
+git clone - clone a local copy
+git log - history of commits
+git remote - tells you if there's any repositories that you are linked to.
+git remote add origin - add the code to new remote repo
+
+
