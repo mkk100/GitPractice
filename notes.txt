@@ -13,4 +13,4 @@ git log - history of commits
 git remote - tells you if there's any repositories that you are linked to.
 git remote add origin - add the code to new remote repo
 
-
+Yikes
