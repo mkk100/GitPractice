@@ -12,5 +12,7 @@ git clone - clone a local copy
 git log - history of commits
 git remote - tells you if there's any repositories that you are linked to.
 git remote add origin - add the code to new remote repo
-
+git branch awesome - create a new branch named awesome
+git branch - list out branches
+git branch -d awesome - delete branch named awesome, d means if merge conflict it wont delte but D would delte everything
 
