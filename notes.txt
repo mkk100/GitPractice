@@ -19,3 +19,5 @@ git checkout awesome - switch to awesome branch
 git checkout -b awesome - create new branch and switch to the branch
 git checkout - = will take you to prev branch
 git merge --abort = abort the merging process
+
+Yikes
