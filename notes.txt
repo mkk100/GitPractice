@@ -19,5 +19,5 @@ git checkout awesome - switch to awesome branch
 git checkout -b awesome - create new branch and switch to the branch
 git checkout - = will take you to prev branch
 git merge --abort = abort the merging process
-
-Yikes
+forking copies the repo to your own repo, you can also fetch updates that way, when you do github opensource you can do pull request and the author will see whether to merge or not.
+git reset - removes files in staging area
